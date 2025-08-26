@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Stage, Layer, Line, Rect, Circle, Text } from 'react-konva'
 import { supabase } from '@/lib/supabase'
 import { 
